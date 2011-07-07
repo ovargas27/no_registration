@@ -1,4 +1,7 @@
 NoRegistration::Application.routes.draw do
+  root :to => "welcome#show"
+  
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
